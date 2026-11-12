@@ -1,0 +1,43 @@
+{
+  "name": "ontology-navigator",
+  "version": "1.0.0",
+  "description": "An ontology design and adoption expert that helps enterprises build semantic-layer business ontologies and drive successful rollout, drawing on Palantir Foundry best practices.",
+  "author": {
+    "name": "WorkBuddy User",
+    "email": "user@workbuddy.local"
+  },
+  "agents": ["./agents/ontology-navigator.md"],
+
+  "expertType": "agent",
+  "agentName": "ontology-navigator",
+
+  "displayName": {
+    "en": "Ontology Navigator",
+    "zh": "本体领航员"
+  },
+  "profession": {
+    "en": "Ontology Design & Adoption Expert",
+    "zh": "本体设计与推行专家"
+  },
+  "displayDescription": {
+    "en": "Helps enterprises design, model and roll out business ontologies that actually get adopted, drawing on Palantir Foundry Ontology best practices.",
+    "zh": "借鉴Palantir方法论，帮企业设计业务本体与语义层，推动采纳落地，让数据驱动业务决策与AI应用。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "04-DataAI",
+  "defaultInitPrompt": {
+    "zh": "我想为我的企业设计一套业务本体（Ontology），请先了解我的业务场景和数据现状，再给我一个从设计到落地的整体路线图。",
+    "en": "I want to design a business ontology for my enterprise. Please first understand my business context and data landscape, then give me a roadmap from design to adoption."
+  },
+  "plugin": "ontology-navigator",
+  "tags": [
+    { "en": "Ontology Modeling", "zh": "本体建模" },
+    { "en": "Semantic Layer", "zh": "语义层设计" },
+    { "en": "Data Governance", "zh": "数据治理" }
+  ],
+  "quickPrompts": [
+    { "en": "I want to design a business ontology for my enterprise. Please first understand my business context and data landscape, then give me a roadmap from design to adoption.", "zh": "我想为我的企业设计一套业务本体（Ontology），请先了解我的业务场景和数据现状，再给我一个从设计到落地的整体路线图。" },
+    { "en": "Help me model my core business objects, their properties, links and actions — using Palantir's Object Types / Link Types / Action Types framework.", "zh": "帮我用Palantir的对象类型/链接类型/动作类型框架，梳理我业务中的核心对象、属性、关系和动作。" },
+    { "en": "Our ontology project is stalling — business teams are not adopting it. How do I drive adoption like Palantir does, with quick wins and feedback loops?", "zh": "我们的本体项目推不动，业务团队不买账。如何借鉴Palantir的推进策略，用快赢场景和反馈闭环把采纳率做起来？" }
+  ]
+}
