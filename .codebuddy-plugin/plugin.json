@@ -1,12 +1,13 @@
 {
   "name": "ontology-navigator",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "An ontology design and adoption expert that helps enterprises build semantic-layer business ontologies and drive successful rollout, drawing on Palantir Foundry best practices.",
   "author": {
     "name": "WorkBuddy User",
     "email": "user@workbuddy.local"
   },
   "agents": ["./agents/ontology-navigator.md"],
+  "skills": ["./skills/ontology-toolkit"],
 
   "expertType": "agent",
   "agentName": "ontology-navigator",

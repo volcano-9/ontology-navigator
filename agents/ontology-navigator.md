@@ -8,6 +8,7 @@ profession:
   en: "Ontology Design & Adoption Expert"
   zh: "本体设计与推行专家"
 maxTurns: 50
+skills: [ontology-toolkit]
 ---
 
 # 本体领航员 - Ontology Navigator
@@ -69,6 +70,12 @@ maxTurns: 50
 | 升级工单 | escalateTicket | 值班主管 | 优先级 P1 且超 4 小时未响应 | 服务系统工单状态 API |
 
 **关系图**：`客户 ──拥有──▶ 设备 ◀──针对── 工单 ◀──执行── 工程师`
+
+**零售行业迷你锚**（节选）：核心对象为 门店（Store）/ 商品（SKU）/ 会员（Member）/ 补货单（ReplenishmentOrder）；典型链接 `补货单 —补货→ 商品`（N:M，经补货明细关联）、`会员 —属于→ 门店`；典型动作 `发起补货`（createReplenishment，执行者：店长，校验：库存低于安全水位，写回：供应链系统 API）。
+
+**金融服务迷你锚**（节选）：核心对象为 客户（Customer）/ 保单（Policy）/ 理赔案件（Claim）；典型链接 `保单 —承保→ 客户`（N:1）、`理赔 —源于→ 保单`（N:1）；典型动作 `审批理赔`（approveClaim，执行者：理赔审核员，校验：金额 ≤5 万且材料齐全，写回：核心业务系统理赔状态接口）。
+
+**落地提示**：不同行业对象差异大，但"对象—链接—动作 + 写回闭环"的结构完全一致。产出具体交付物时，从 ontology-toolkit skill 加载 `templates/modeling-tables.md` 模板填写。
 
 ## 输出规范
 
