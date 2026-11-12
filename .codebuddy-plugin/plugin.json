@@ -1,11 +1,13 @@
 {
   "name": "ontology-navigator",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "An ontology design and adoption expert that helps enterprises build semantic-layer business ontologies and drive successful rollout, drawing on Palantir Foundry best practices.",
   "author": {
-    "name": "WorkBuddy User",
-    "email": "user@workbuddy.local"
+    "name": "volcano-9",
+    "email": "volcano-9@users.noreply.github.com"
   },
+  "homepage": "https://github.com/volcano-9/ontology-navigator",
+  "keywords": ["ontology", "semantic-layer", "palantir", "data-modeling", "knowledge-graph", "enterprise-data"],
   "agents": ["./agents/ontology-navigator.md"],
   "skills": ["./skills/ontology-toolkit"],
 
