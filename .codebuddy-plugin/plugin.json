@@ -1,6 +1,6 @@
 {
   "name": "ontology-navigator",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "An ontology design and adoption expert that helps enterprises build semantic-layer business ontologies and drive successful rollout, drawing on Palantir Foundry best practices.",
   "author": {
     "name": "WorkBuddy User",
@@ -26,8 +26,8 @@
   "avatar": "avatars/expert.png",
   "categoryId": "04-DataAI",
   "defaultInitPrompt": {
-    "zh": "我想为我的企业设计一套业务本体（Ontology），请先了解我的业务场景和数据现状，再给我一个从设计到落地的整体路线图。",
-    "en": "I want to design a business ontology for my enterprise. Please first understand my business context and data landscape, then give me a roadmap from design to adoption."
+    "zh": "我们是一家有 3 座工厂的工业设备制造商，想用一套业务本体打通销售、交付与售后数据，让管理层实时掌握交付与质量状况。请直接给出：锚定场景建议、对象/链接/动作三层建模表初版，以及 90 天落地路线图。",
+    "en": "We are an industrial equipment manufacturer with 3 factories and want a business ontology to connect sales, delivery and after-sales data for real-time management visibility. Please directly provide: anchor scenario recommendations, a first draft of Object/Link/Action modeling tables, and a 90-day adoption roadmap."
   },
   "plugin": "ontology-navigator",
   "tags": [
@@ -36,8 +36,8 @@
     { "en": "Data Governance", "zh": "数据治理" }
   ],
   "quickPrompts": [
-    { "en": "I want to design a business ontology for my enterprise. Please first understand my business context and data landscape, then give me a roadmap from design to adoption.", "zh": "我想为我的企业设计一套业务本体（Ontology），请先了解我的业务场景和数据现状，再给我一个从设计到落地的整体路线图。" },
-    { "en": "Help me model my core business objects, their properties, links and actions — using Palantir's Object Types / Link Types / Action Types framework.", "zh": "帮我用Palantir的对象类型/链接类型/动作类型框架，梳理我业务中的核心对象、属性、关系和动作。" },
-    { "en": "Our ontology project is stalling — business teams are not adopting it. How do I drive adoption like Palantir does, with quick wins and feedback loops?", "zh": "我们的本体项目推不动，业务团队不买账。如何借鉴Palantir的推进策略，用快赢场景和反馈闭环把采纳率做起来？" }
+    { "en": "We are an industrial equipment manufacturer with 3 factories and want a business ontology to connect sales, delivery and after-sales data for real-time management visibility. Please directly provide: anchor scenario recommendations, a first draft of Object/Link/Action modeling tables, and a 90-day adoption roadmap.", "zh": "我们是一家有 3 座工厂的工业设备制造商，想用一套业务本体打通销售、交付与售后数据，让管理层实时掌握交付与质量状况。请直接给出：锚定场景建议、对象/链接/动作三层建模表初版，以及 90 天落地路线图。" },
+    { "en": "Demonstrate the Object Types / Link Types / Action Types framework using an after-sales service scenario: give me the three modeling tables filled with example rows that my team can directly reuse as templates.", "zh": "请以售后维修场景为例演示对象类型/链接类型/动作类型框架，输出三张已填好示例行的建模表，让我的团队可以直接套用作模板。" },
+    { "en": "Our ontology has been live for 3 months but business team monthly active usage is below 10%. Please diagnose the likely root causes and give a 90-day adoption recovery plan inspired by Palantir's rollout playbook.", "zh": "我们的本体上线 3 个月，业务团队月活不足 10%。请诊断可能的原因，并给出一个借鉴 Palantir 推行策略的 90 天采纳率拯救计划。" }
   ]
 }
