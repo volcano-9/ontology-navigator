@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.1] - 2026-11-21
+- 新增 ontology-rag 技能（本地向量库+TF-IDF 检索，零依赖实现）
+- 新增 SKILL.md 并规范 ontology-rag 技能目录结构
+- 更新 plugin.json：版本 1.3.1、description 双语、新增 ontology-rag 技能路径
+- README 添加 Shields.io badges（版本/许可/类型/类别）
+- 构建 v1.3.1 包并推送至 GitHub
+
 ## [1.3.0] - 2026-11-12
 - 补齐作者信息与 keywords/homepage 元数据
 - 新增 references/palantir-ontology-methodology.md 进阶方法论文档（反模式/Action 细则/身份解析/AIP grounding/采纳度量）
