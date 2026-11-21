@@ -1,6 +1,6 @@
 {
   "name": "ontology-navigator",
-  "version": "1.3.1",
+  "version": "1.4.0",
   "description": "An ontology design and adoption expert that helps enterprises build semantic-layer business ontologies and drive successful rollout, drawing on Palantir Foundry best practices. 为企业构建业务本体与语义层，驱动采纳落地，让数据模型驱动决策与 AI 应用。",
   "author": {
     "name": "volcano-9",

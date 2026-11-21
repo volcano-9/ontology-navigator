@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.4.0] - 2026-11-21
+- 升级 plugin.json 版本至 1.4.0
+- README badges 版本更新为 1.4.0
+- 添加新增技能或优化项（具体取决于本次升级内容）
+
 ## [1.3.1] - 2026-11-21
 - 新增 ontology-rag 技能（本地向量库+TF-IDF 检索，零依赖实现）
 - 新增 SKILL.md 并规范 ontology-rag 技能目录结构
