@@ -2,14 +2,14 @@
 
 基于 **Palantir Foundry Ontology 成功实践**的 WorkBuddy 专家（Agent 型）。帮助企业设计业务本体、构建语义层并推动落地采纳，让数据模型真正驱动业务决策与 AI 应用。
 
-![Version](https://img.shields.io/badge/version-1.4.0-blue.svg)
+![Version](https://img.shields.io/badge/version-1.4.1-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![WorkBuddy Expert](https://img.shields.io/badge/type-Agent-blue.svg)
 ![Category](https://img.shields.io/badge/category-DataAI-blue.svg)
 
 ## 类型
 
-Agent 型（单个 AI 专家）· 分类：数据智能（04-DataAI）· 版本：1.4.0
+Agent 型（单个 AI 专家）· 分类：数据智能（04-DataAI）· 版本：1.4.1
 
 ## 功能
 
